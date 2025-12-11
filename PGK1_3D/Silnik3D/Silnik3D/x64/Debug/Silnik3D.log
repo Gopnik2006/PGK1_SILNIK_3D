@@ -1,5 +1,5 @@
 ﻿  Main.cpp
-  tetrahedron.cpp
+  Obserwator.cpp
   Generating Code...
 Silnik3D\x64\Debug\kula.obj : warning LNK4042: object specified more than once; extras ignored
   Silnik3D.vcxproj -> D:\PGK1_3D\Silnik3D\x64\Debug\Silnik3D.exe

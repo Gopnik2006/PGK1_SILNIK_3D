@@ -134,6 +134,7 @@
     <ClInclude Include="cube.hpp" />
     <ClInclude Include="custom_object.hpp" />
     <ClInclude Include="Engine.hpp" />
+    <ClInclude Include="Obserwator.hpp" />
     <ClInclude Include="primitive_renderer.hpp" />
     <ClInclude Include="tetrahedron.hpp" />
   </ItemGroup>
@@ -144,6 +145,7 @@
     <ClCompile Include="kula.cpp" />
     <ClCompile Include="kula.hpp" />
     <ClCompile Include="Main.cpp" />
+    <ClCompile Include="Obserwator.cpp" />
     <ClCompile Include="tetrahedron.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

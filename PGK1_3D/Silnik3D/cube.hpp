@@ -10,7 +10,7 @@ public:
 
     // Rysuje sześcian. Przy wywołaniu setup GL powinien mieć odpowiednie macierze.
     void draw() const;
-
+    
 private:
     static const GLfloat vertices[8][3];
     static const GLfloat normals[6][3];

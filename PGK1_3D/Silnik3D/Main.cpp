@@ -3,12 +3,14 @@
 #include "custom_object.hpp"
 #include "kula.hpp"
 #include "tetrahedron.hpp"
+#include "Obserwator.hpp"
 
 // globalnie lub wewnątrz maina
 Cube cube;
 CustomObject letter;
 Kula kula;
 Tetrahedron tetr;
+Obserwator obserwator;
 
 int main(int argc, char** argv) {
     Engine::Config cfg;
@@ -23,11 +25,12 @@ int main(int argc, char** argv) {
 
     Engine engine(cfg);
 
+    
     engine.setRenderCallback([&]() {
-        // ustaw transformacje (przykład)
+        // ustaw transformacje (przykład) glTranslate, glRotate, glScale
         glPushMatrix();
         glTranslatef(0.0f, 0.0f, -5.0f);
-        glRotatef((float)glutGet(GLUT_ELAPSED_TIME) * 0.02f, 0.1f, 1.0f, 0.5f);
+        glRotatef((float)glutGet(GLUT_ELAPSED_TIME) * 0.02f, 0.0f, 0.0f, 1.0f);
         cube.draw();
         glPopMatrix();
 
@@ -39,7 +42,7 @@ int main(int argc, char** argv) {
 
         glPushMatrix();
         glTranslatef(-3.0f, 0.0f, -5.0f);
-        glRotatef((float)glutGet(GLUT_ELAPSED_TIME) * 0.02f, 1.0f, 0.0f, 0.0f);
+        glRotatef((float)glutGet(GLUT_ELAPSED_TIME) * 0.02f, 0.0f, 0.1f, 0.0f);
         tetr.draw();
         glPopMatrix();
 
@@ -51,8 +54,7 @@ int main(int argc, char** argv) {
         });
 
     engine.setUpdateCallback([&](double dt) {
-        // Tutaj logika aktualizacji - dt w sekundach
-        // Przykładowo nic nie robimy
+        
         (void)dt;
         });
 

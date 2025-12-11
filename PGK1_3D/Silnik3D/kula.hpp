@@ -1,6 +1,7 @@
 ﻿#pragma once
 #include <GL/freeglut.h>
 
+
 class Kula {
 public:
     Kula();
