@@ -1,0 +1,4 @@
+﻿  Main.cpp
+D:\PGK1_3D\Silnik3D\Main.cpp(99,39): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+D:\PGK1_3D\Silnik3D\Main.cpp(103,40): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+  Silnik3D.vcxproj -> D:\PGK1_3D\Silnik3D\x64\Debug\Silnik3D.exe
