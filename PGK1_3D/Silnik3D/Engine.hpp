@@ -15,6 +15,12 @@
 // Prosty enum rzutowań
 enum class ProjectionMode { PERSPECTIVE, ORTHOGRAPHIC };
 
+enum class ShadingMode {
+    FLAT,
+    GOURAUD,
+    PHONG
+};
+
 class Engine {
 public:
     // Konfiguracja graficzna

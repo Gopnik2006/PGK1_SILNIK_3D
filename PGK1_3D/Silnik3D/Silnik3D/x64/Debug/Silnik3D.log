@@ -1,5 +1,11 @@
-﻿  Main.cpp
-  Obserwator.cpp
+﻿  BitmapHandler.hpp
+D:\PGK1_3D\Silnik3D\BitmapHandler.hpp(5,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+  Main.cpp
+D:\PGK1_3D\Silnik3D\BitmapHandler.hpp(5,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+  (compiling source file 'Main.cpp')
+  
+D:\PGK1_3D\Silnik3D\Main.cpp(17,1): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+D:\PGK1_3D\Silnik3D\Main.cpp(17,15): error C2146: syntax error: missing ';' before identifier 'BitmapHandler'
+D:\PGK1_3D\Silnik3D\Main.cpp(115,39): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+D:\PGK1_3D\Silnik3D\Main.cpp(119,40): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
   Generating Code...
-Silnik3D\x64\Debug\kula.obj : warning LNK4042: object specified more than once; extras ignored
-  Silnik3D.vcxproj -> D:\PGK1_3D\Silnik3D\x64\Debug\Silnik3D.exe
